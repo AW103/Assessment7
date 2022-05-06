@@ -17,7 +17,8 @@ for(let i = 0; i < array.length; i++) {
 return result;
 }
 
-// console.log(sumZero(array));
+
+console.log(sumZero(array));
 // Run time is O(n^2) because of the nested for loops, both of which have a dynamic stopping point.
 // -------------------------------------------------------------------------------------------------
 
@@ -53,7 +54,7 @@ const find_longest_word = (arr) => {
     return word;
 }
 
-console.log(find_longest_word(["hi", "hello", "hola"]));
+// console.log(find_longest_word(["hi", "hello", "hola"]));
 // Run time is linear because the forEach method has a dynamic array size that is is iterating through.
 
 
